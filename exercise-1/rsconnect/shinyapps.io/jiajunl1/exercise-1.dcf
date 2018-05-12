@@ -1,0 +1,12 @@
+name: exercise-1
+title: exercise-1
+username:
+account: jiajunl1
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 341766
+bundleId: 1370087
+url: https://jiajunl1.shinyapps.io/exercise-1/
+when: 1526104244.64262
+asMultiple: FALSE
+asStatic: FALSE

@@ -37,7 +37,9 @@ server <- function(input, output) {
   # The reactive expression should return the input `price` times the `quantity`
   # So it looks nice, paste a "$" in front of it!
   output$cost <- renderText({
-    return(paste0("$", input$price * input$quantity))
+    x <- input$price * input$quantity
+    message <- paste0("Hello there, the price is $", x )
+    message
   })
 } 
 

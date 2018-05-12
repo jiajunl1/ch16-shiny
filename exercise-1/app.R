@@ -1,5 +1,5 @@
 # Exercise 1: Building a user interface
-install.packages("shiny")
+
 # Load the `shiny` package (install it in the R terminal if you haven't already)
 library(shiny)
 
@@ -28,7 +28,7 @@ ui <- fluidPage(
   # A slider with an appropriate label, min of 10, max of 100, value of 50  
   sliderInput(
     "slider",
-    "My First Slider", min = 0, max = 100, value = 50, step = 10
+    "My First Slider", min = 10, max = 100, value = 50
   )
 )
 
